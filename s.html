@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment3</title>
+</head>
+<style>
+    #myhtml:hover{
+           background-color: yellow;
+    }
+    #mycss:hover{
+        background-color: brown;
+    }
+    #myjavascript:hover{
+        background-color: rgba(255, 192, 234, 0.815);
+    }
+    #mybootstrap:hover{
+        background-color: orangered;
+    }
+    #mynodejs:hover{
+        background-color: olivedrab;
+    }
+    .mevn{
+        background-color: rgb(255, 166, 0);
+    }
+    .serverless{
+        background-color: rgb(255, 0, 0);
+    }
+    .ruby{
+        background-color: rgb(166, 255, 0);
+    }
+    .lotus:hover + #image{
+        display:block;
+    }
+    #image{
+        display: none;
+    }
+    #color:hover{
+        background-color: yellow;
+    }
+    .about{
+        color:rgba(0, 0, 255, 0.897);
+    }
+    #pw{
+        color:rgba(0, 128, 0, 0.904);
+    }
+    .name{
+        color: rgb(4, 128, 128);
+    }
+    .last{
+        color: rgba(0, 0, 255, 0.897);
+    }
+    .email{
+        color: rgba(183, 0, 255, 0.89);
+    }
+    .pass{
+        color: rgba(226, 86, 43, 0.925);
+    }
+</style>
+<body>
+    <h2>3) Create a web page with 5 tag similar to navigaton bar. each link should change to a different color when its hoverd.</h2>
+    <nav>
+        <a href id="myhtml"="#html" >HTML</a><br>
+        <a href id="mycss"="#css">CSS</a><br>
+        <a href id="myjavascript"="#javascript">JAVASCRIPT</a><br>
+        <a href id="mybootstrap"="#Bootstrap">BOOTSSTRAP</a><br>
+        <a href id="mynodejs"="#Nodejs">NODEJS</a>
+    </nav>
+    <h2>4) Create a web page with list of tech stacks involved in full stack web development where even numbered items
+        have a different background color then odd numbered.
+    </h2>
+    <ol>
+      <li>MERN STACK</li>
+      <li my class="mevn">MEVN STACK</li>
+      <li>LAMP STACK</li>
+      <li my class="serverless">SERVERLESS STACK</li>
+      <li>FLUTTER FOR WEB</li>
+      <li my class="ruby">RUBY ON RAILS</li>
+    </ol>
+    <h2>5) Create a web page with an image that is hidden until its hovered over. Use a heading above the image that says hover below to 
+        reveal a surprise.
+    </h2>
+    <h3 class="lotus" style="color: rgba(0, 0, 255, 0.911)">LOTUS hover below to see a surprise:</h3>
+    <div id="image">
+    <img src="lotus.jpg">
+    </div>
+    <h2>6) Create a web page with a form where the input field has a yellow background when it is focused on.</h2>
+    <form>
+        <label for="username">Enter your name:</label>
+        <input type ="username" id="color" placeholder="Enter your name" id="username"><br>
+        <label for="email">Enter your email:</label>
+        <input type id="color"="email" placeholder="Enter your email" id="email"><br>
+        <label for="password">Enter your Password:</label>
+        <input type id="color"="password" placeholder="enter your password" id="password"><br>
+        <input type="Submit">
+    </form>
+    <h2>8) Create an about web page with the heading "Abou us" and paragraph text about " PW Skills".</h2>
+    <h3 class="about">About us:</h3>
+    <p id="pw">PW Skills elevates your potential by giving you the skills to become successful in the industry you choose to be in.
+        its course structure focuses on real time requirements of a working professional and disburses it to you in a simple,
+        yet effective way!
+    </p>
+    <h2>9) Create a web page with a registration form, using the CSS attribute selector change the text colors of each input field 
+        to any other color.</h2>
+        <form>
+            <label for="firstname" class="name" >Enter your First Name:</label>
+            <input type="firstname" placeholder="First name" id="firstname"><br>
+            <label for="lastname" class="last">Enter your Last Name:</label>
+            <input type="lastname"   placeholder="Last name" id="lastname"><br>
+            <label for="email" class="email">Enter your Email:</label>
+            <input type="email" placeholder="Enter your email" id="email"><br>
+            <label for="password" class="pass">Enter your Password:</label>
+            <input type="password"  id="password"><br>
+            <input type="Submit">
+        </form>
+</body>
+</html>

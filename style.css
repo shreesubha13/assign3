@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+.grid{
+    width:1000px;
+    margin: auto;
+    
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width:270px;
+    transition: 0.4s;
+    font-family: sans-serif;
+    float: left;
+    margin:10px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+.card-content{
+    padding:2px 16px;
+}
+.img{
+    border-radius: 10px;
+}
